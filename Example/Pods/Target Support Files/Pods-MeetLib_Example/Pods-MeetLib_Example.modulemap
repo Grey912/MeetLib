@@ -1,0 +1,6 @@
+framework module Pods_MeetLib_Example {
+  umbrella header "Pods-MeetLib_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

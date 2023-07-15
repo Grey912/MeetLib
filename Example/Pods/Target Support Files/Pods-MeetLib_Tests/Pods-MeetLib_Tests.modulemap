@@ -1,0 +1,6 @@
+framework module Pods_MeetLib_Tests {
+  umbrella header "Pods-MeetLib_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
