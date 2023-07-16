@@ -16,7 +16,7 @@ public class Test:NSObject {
     }
     
     public func foo2() {
-        print("In method foo2 2")
+        print("In method foo2 V 0.1.1")
     }
 }
 
