@@ -4,7 +4,8 @@ use_frameworks!
 platform :ios, '10.0'
 
 target 'MeetLib_Example' do
-  pod 'MeetLib'
+#  pod 'MeetLib', '~> 0.1.1'
+   pod 'MeetLib',
 
   target 'MeetLib_Tests' do
     inherit! :search_paths
