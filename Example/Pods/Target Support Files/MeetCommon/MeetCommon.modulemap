@@ -1,0 +1,6 @@
+framework module MeetCommon {
+  umbrella header "MeetCommon-umbrella.h"
+
+  export *
+  module * { export * }
+}

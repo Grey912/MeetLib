@@ -8,6 +8,7 @@
 
 import UIKit
 import MeetLib
+import MeetCommon
 
 class ViewController: UIViewController {
 
@@ -19,6 +20,8 @@ class ViewController: UIViewController {
         let test = Test()
         print("foo return value \(test.foo())")
         test.foo2()
+        
+        self.view.backgroundColor = test.getColor()
     }
 
     override func didReceiveMemoryWarning() {

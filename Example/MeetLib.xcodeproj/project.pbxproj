@@ -317,10 +317,12 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-MeetLib_Example/Pods-MeetLib_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/MeetCommon/MeetCommon.framework",
 				"${BUILT_PRODUCTS_DIR}/MeetLib/MeetLib.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MeetCommon.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MeetLib.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;

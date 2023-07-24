@@ -1,12 +1,13 @@
 source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/Grey912/MeetPodSpec.git'
 use_frameworks!
 
 platform :ios, '10.0'
 
 target 'MeetLib_Example' do
 #  pod 'MeetLib', '~> 0.1.1'
-   pod 'MeetLib',
-
+   pod 'MeetLib', :path => '../'
+   pod 'MeetCommon'
   target 'MeetLib_Tests' do
     inherit! :search_paths
 

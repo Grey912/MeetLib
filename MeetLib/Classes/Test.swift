@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import MeetCommon
 
 public class Test:NSObject {
 
@@ -17,6 +18,10 @@ public class Test:NSObject {
     
     public func foo2() {
         print("In method foo2 V 0.1.1")
+    }
+    
+    public func getColor() -> UIColor {
+        return kAppStyleColorPublic
     }
 }
 

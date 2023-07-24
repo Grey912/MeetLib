@@ -9,7 +9,9 @@ PODS:
   - iOSSnapshotTestCase/Core (8.0.0)
   - iOSSnapshotTestCase/SwiftSupport (8.0.0):
     - iOSSnapshotTestCase/Core
-  - MeetLib (0.1.0)
+  - MeetCommon (0.1.1)
+  - MeetLib (0.1.1):
+    - MeetCommon
   - Nimble (10.0.0)
   - Nimble-Snapshots (9.4.0):
     - Nimble-Snapshots/Core (= 9.4.0)
@@ -20,14 +22,15 @@ PODS:
 
 DEPENDENCIES:
   - FBSnapshotTestCase (~> 2.1.4)
-  - MeetLib
+  - MeetCommon
+  - MeetLib (from `../`)
   - Nimble (~> 10.0.0)
   - Nimble-Snapshots (~> 9.4.0)
   - Quick (~> 2.2.0)
 
 SPEC REPOS:
-  https://github.com/CocoaPods/Specs.git:
-    - MeetLib
+  https://github.com/Grey912/MeetPodSpec.git:
+    - MeetCommon
   trunk:
     - FBSnapshotTestCase
     - iOSSnapshotTestCase
@@ -35,14 +38,19 @@ SPEC REPOS:
     - Nimble-Snapshots
     - Quick
 
+EXTERNAL SOURCES:
+  MeetLib:
+    :path: "../"
+
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
   iOSSnapshotTestCase: a670511f9ee3829c2b9c23e6e68f315fd7b6790f
-  MeetLib: e171b7963bcfe2a4c336482d1dd2315f8c7e9c69
+  MeetCommon: 6d845903c8acde5f9d9fac3cf8b325384df2a7f7
+  MeetLib: 73f610d68053905e896d1e9ba68f2f257e9c0b3f
   Nimble: 5316ef81a170ce87baf72dd961f22f89a602ff84
   Nimble-Snapshots: ef281b908c604f78c8313587e25ea92c8ab513d7
   Quick: f5754d69b7013f5864c29aab9ae6f0c79c5bc200
 
-PODFILE CHECKSUM: 29f32f8af9e50576bf4806ad3be0dcb3fd3765e2
+PODFILE CHECKSUM: 7d93690d1150742724b67e0e67ab0d76d2232a26
 
 COCOAPODS: 1.12.1
