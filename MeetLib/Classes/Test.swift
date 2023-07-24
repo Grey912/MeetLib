@@ -23,5 +23,9 @@ public class Test:NSObject {
     public func getColor() -> UIColor {
         return kAppStyleColorPublic
     }
+    
+    @objc func getColor2() -> UIColor {
+        return kPublicMineColor
+    }
 }
 
